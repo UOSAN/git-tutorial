@@ -173,7 +173,7 @@ git config --global --list
 git remote -v
 
 # change remote repo
-git remote set-url origin [https://github.com/USERNAME/REPOSITORY.git]
+git remote set-url origin [repo address]
 ```
 
 ## Example collaborative repo with multiple branches
