@@ -135,12 +135,15 @@ git pull
 # initialize repository
 git init
 
+# check status
+git status
+
 # add file(s) 
 git add [file]  # single file
 git add .       # all files
 
 # make a snapshot of repository
-git commit -m "[message text]"
+git commit -m "[message text]" --author="[Name]<email>"
 
 # copy existing repository
 git clone [repo address]
@@ -161,10 +164,16 @@ git diff
 git checkout -b [name of new branch]
 
 # switch branches
-git checkout
+git checkout [branch name]
 
 # check configurations
 git config --global --list
+
+# check remote repo address
+git remote -v
+
+# change remote repo
+git remote set-url origin [https://github.com/USERNAME/REPOSITORY.git]
 ```
 
 ## Example collaborative repo with multiple branches
