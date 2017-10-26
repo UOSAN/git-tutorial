@@ -5,15 +5,20 @@ cowsay
 cowplot
 hackin.exe
 catterplots
+<<<<<<< HEAD
+
+=======
+I also want ggplot!!
+
+>>>>>>> 1d0eacab7bfb9b3a59c883c1465c00c9f3e045ad
+
+
+
+
+
+
+
 lme4
-
-
-
-
-
-
-
-
 
 
 
